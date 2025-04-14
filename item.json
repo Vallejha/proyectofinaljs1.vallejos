@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "Nombre": "angel",
+        "precio": 400,
+        "imagen": "angel.jpeg"
+    },
+    {
+        "id": 2,
+        "Nombre": "castillo",
+        "precio": 800,
+        "imagen": "castillo.jpeg"
+    },
+    {
+        "id": 3,
+        "Nombre": "pulpo",
+        "precio": 600,
+        "imagen": "pulpo.jpg"
+    },
+    {
+        "id": 4,
+        "Nombre": "redmarket",
+        "precio": 1000,
+        "imagen": "redmarket.jpeg"
+    },
+    {
+        "id": 5,
+        "Nombre": "sueño",
+        "precio": 900,
+        "imagen": "sueño.jpg"
+    }
+    
+    ]

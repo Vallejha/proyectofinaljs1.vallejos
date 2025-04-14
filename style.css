@@ -1,0 +1,97 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Rubik', sans-serif;
+}
+
+
+.store {
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   background-color: chocolate;
+}
+
+aside {
+   padding: 1rem;
+   padding-right: 0;
+   color: black;
+   position: sticky;
+   top: 0;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+main {
+   width: 100%;
+   background-color: aqua;
+   margin: 1rem;
+   margin-left: 0;
+   border-radius: 2rem;
+   padding: 1rem;
+} 
+
+.imagen{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+   display: flex;
+   margin-bottom: 10px;
+   justify-content: center;
+}
+
+#tarjeta_ventas
+{
+display: flex;
+width: 300px;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+ img{
+    width: 70%;
+    border-radius: 5px;
+    margin: 20px;
+ }
+}
+
+
+#inventario
+{
+display:flex;
+width: 300px;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+ img{
+   margin: 20px;
+   width: 70%;
+   height: 40%;
+   border-radius: 5px;
+ }
+}
+
+ul li {
+            margin: 10px;
+            padding: 10px;
+            list-style: none;
+            text-align: center;
+            font-weight: bolder;
+            background-color: rgb(152, 172, 172);
+            border-radius: 10px;
+        }
+    ul li:hover{
+        background-color: rgb(113, 28, 28);
+        color: rgb(228, 239, 239);
+    }
